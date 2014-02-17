@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextClock
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textClock" android:layout_weight="1"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText" android:layout_gravity="center_vertical"
+            android:background="#04fff6" android:editable="true" android:text="Edit Me!" android:textColor="#020202"
+            android:textAlignment="center"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Press Me"
+            android:id="@+id/button" android:layout_gravity="bottom" android:layout_weight="1"
+            android:onClick="@string/press_me" android:background="#0b0dff"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Kevin is a fish!"
+            android:id="@+id/textView" android:textColor="#020202" android:background="#ff0706"/>
+</LinearLayout>
